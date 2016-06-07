@@ -1,1 +1,109 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alex Portfolio</title>
+    <link href='https://fonts.googleapis.com/css?family=Catamaran:300,100' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Simonetta' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial" />
+
+    <script src="js/main.js"></script>
+
+    <meta name="description" content="Udacity Build a Portfolio Site Project" />
+    <meta name="author" content="Alexandros Antoniou">
+
+  </head>
+
+<body>
+  <div class="container">
+    <div class="page-header">
+      <div class="row">
+        <div class="col-md-6 col-xs-12 col-sm-12">
+          <img class="img-responsive title-logo" src="images/logo2.svg" alt="Udacity Logo" >
+        </div>
+        <div class="col-md-6  col-xs-12 col-sm-12 text-right text-uppercase">
+          <h1 class="title-super">Alexandros Antoniou</h1>
+          <h4>Front-End Ninja</h4>
+          <article>
+            <a href="https://twitter.com/gooneraki" class="zocial-twitter"></a>
+            <a href="https://www.facebook.com/alexandros.antoniou" class="zocial-facebook"></a>
+            <a href="https://cy.linkedin.com/in/alexandros-antoniou-53967b1b" class="zocial-linkedin"></a>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 col-xs-12 col-sm-12">
+      <picture>
+        <source media="(max-width:360px)" srcset="images/profile-w360.jpeg">
+        <source media="(max-width:640px)" srcset="images/profile-w640.jpeg">
+        <source media="(max-width:1024px)" srcset="images/profile-w1024.jpeg">
+        <img src="images/profile-w1600.jpeg" alt="Profile picture" class="img-responsive center-block">
+      </picture>
+
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <hr>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-12 ">
+        <h2 class="text-muted">Interests and Activities</h2>
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-md-4  col-xs-12 col-sm-6">
+        <h3>Five-a-side</h3>
+        <img class="img-responsive center-block" src="images/fiveASide-w360.jpg" alt="Five-a-side"  data-toggle="modal" data-target="#project1">
+      </div>
+      <div class="col-md-4 col-xs-12 col-sm-6">
+        <h3>Politics</h3>
+        <img src="images/politics-w360.jpg" alt="Merkel and Putin laughing" class="img-responsive center-block">
+      </div>
+      <div class="col-md-4 col-xs-12 col-sm-6">
+        <h3>Coding</h3>
+        <img src="images/coding-w360.jpg" alt="A programmer fed up" class="img-responsive center-block">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 ">
+        <hr>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- Modal -->
+   <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+       <div class="modal-dialog">
+           <div class="modal-content">
+               <div class="modal-header">
+                   <h4 class="modal-title" id="myModalLabel">Modal test</h4>
+               </div>
+               <div class="modal-body">
+                   <img class="img-responsive" src="http://placekitten.com/400/400">
+                   Well, this is just a test to modal windows.
+               </div>
+               <div class="modal-footer">
+                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+               </div>
+           </div>
+       </div>
+   </div>
+
+</body>
+</html>
